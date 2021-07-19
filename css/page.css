@@ -1,5 +1,4 @@
 .page {
-  border: 1px solid red;
   display: grid;
   height: 100vh;
   grid-template-columns: 15.25rem 1fr;
@@ -19,5 +18,4 @@
 
 .page .calendar {
   grid-area: calendar;
-  border: 2px solid purple;
 }

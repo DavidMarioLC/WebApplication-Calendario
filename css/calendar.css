@@ -9,7 +9,8 @@
   --minBlockSize: 4rem;
   --maxBlockSize: auto;
   --minInlineSize: 5rem;
-  --maxInlineSize: 10rem;
+  --maxInlineSize: 1fr;
+  position: relative;
 }
 
 .calendar-week {

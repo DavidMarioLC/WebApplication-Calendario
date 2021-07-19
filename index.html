@@ -16,9 +16,28 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <select class="select" name="" id="">
+          <option value="Mes" selected>Mes</option>
+          <option value="Semana">Semana</option>
+          <option value="Dia">Dia</option>
+        </select>
+        <button class="button">button</button>
+        <a class="button" href="#">button</a>
+
+        <a class="button is-primary" href="#">button</a>
+
+        <a class="button is-secondary" href="#"> button</a>
+        <a class="button is-rounded is-shadowed" href="#">
+          <i class="icon-plus"></i><span>button</span>
+        </a>
+        <a class="button is-compact" href="#">
+          <i class="icon-plus"></i>
+        </a>
+      </header>
       <div class="sidebar"></div>
       <main class="calendar">
+        <div class="currentTime"></div>
         <div class="calendar-week">
           <div class="timezoneCell">GMT-5</div>
           <h2 class="calendarDay">
