@@ -1,5 +1,4 @@
 .modal {
-  display: flex;
   flex-direction: column;
   gap: 1.5rem;
   max-inline-size: 28rem;
@@ -16,6 +15,10 @@
   top: 200px;
   left: 200px;
   margin: unset; /*resetear a cero: unset/initial/0*/
+}
+
+.modal[open] {
+  display: flex;
 }
 
 /* background del  modal */

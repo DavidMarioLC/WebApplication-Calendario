@@ -1,4 +1,14 @@
 body {
-  margin: 0;
   font: var(--body1-regular);
+  margin: 0;
+  color: var(--gray50);
+  background: var(--white);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    --gray50: #ffffff;
+    --gray20: #c1c1c1;
+    --white: #0d1117;
+  }
 }
