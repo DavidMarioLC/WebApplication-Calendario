@@ -449,21 +449,25 @@
       </main>
     </div>
     <dialog  class="modal">
-     <form>
-       <div>
-        <input name="title" type="text" placeholder="Agregar titulo" required>
-       </div>
-       <div>
-        <input name="date" type="date" required>
-       </div>
-        <div>
-          <input name="time-start" type="time" required>
+     <form class="createTask">
+       <div class="input is-outstanding">
+        <div class="input-body">
+          <input name="title" type="text" placeholder="Agregar titulo" required>
         </div>
-      <div>
-        <input name="time-end" type="time" required>
-      </div>
-      <div>
-        <input name="guests" list="guests" type="text" placeholder="Agregar invitados" required>
+       </div>
+       <div class="input">
+         <i class="icon-clock"></i>
+        <div class="input-body">
+          <input name="date" type="date" required>
+          <input name="time-start" type="time" required>
+          <input name="time-end" type="time" required>
+        </div>
+       </div>
+        
+      <div class="input">
+        <i class="icon-clock"></i>
+       <div class="input-body">
+        <input  name="guests" list="guests" type="text" placeholder="Agregar invitados" required>
         <datalist id="guests">
           <option value="Leonidas"></option>
           <option value="Carlos"></option>
@@ -471,15 +475,25 @@
           <option value="Sandra"></option>
           <option value="Cristopher"></option>
         </datalist>
+       </div>
       </div>
       <div class="input">
-        <input name="location" type="text" placeholder="Agregar ubicacion">
+        <i class="icon-gps"></i>
+        <div class="input-body">
+          <input name="location" type="text" placeholder="Agregar ubicacion">
+        </div>
       </div>
-      <div class="file">
+      <div class="input">
+        <i class="icon-gps"></i>
+     <div class="input-body">
       <input type="file" name="file" id="file" multiple>
+     </div>
       </div>
       <div class="input">
-        <textarea name="description" id="description" cols="40" rows="5"></textarea>
+        <i class="icon-gps"></i>
+        <div class="input-body">
+          <textarea name="description" id="description" placeholder="Agregar description" cols="40" rows="2"></textarea>
+        </div>
       </div>
      </form>
      <div class="modal-actions">

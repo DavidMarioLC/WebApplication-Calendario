@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.input i {
+  font-size: 1.5rem;
+}
+
+.input.is-outstanding input {
+  font: var(--subtitle-subtitle1);
+}
+
+.input-body {
+  flex: 1;
+  display: flex;
+}
+
+.input input,
+.input textarea {
+  flex: 1;
+  font: var(--body1-regular);
+  padding-block: 0.625rem;
+  padding-right: 0.75rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.input input:hover,
+.input input:focus,
+.input textarea:hover,
+.input textarea:focus {
+  background-color: var(--gray10);
+}
+
+.input input:focus,
+.input textarea:focus {
+  box-shadow: 0 2px 0 var(--blue10);
+}
