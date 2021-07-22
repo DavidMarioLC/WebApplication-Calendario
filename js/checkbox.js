@@ -2,14 +2,15 @@ const $checkboxs = document.querySelectorAll(".checkbox");
 
 
 function marcar(e){
-  
-  const checked = JSON.parse(e.target.ariaChecked);
+  console.log(e.currentTarget)
+  const checked = JSON.parse(e.currentTarget.ariaChecked);
   
   if(checked){
-    e.target.ariaChecked = "false"
+    e.currentTarget.ariaChecked= "false"
     
   }else{
-    e.target.ariaChecked = "true"
+    
+    e.currentTarget.ariaChecked= "true"
   }
   
   
