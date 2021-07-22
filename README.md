@@ -16,15 +16,7 @@ No require nada solo debes ingresar al enlace.
 
 ### 💻 Desktop
 
-<imagen aquí>
-
-### 📱 Mobile
-
-<imagen aquí>
-
-## 📌 Stack
-
-<escribe aquí>
+<https://github.com/DavidMarioLC/portafolio-calendario/blob/main/Thumbnail-Calendario.jpg >
 
 ## 🌟 Autor
 
