@@ -16,7 +16,7 @@ No require nada solo debes ingresar al enlace.
 
 ### 💻 Desktop
 
-<https://github.com/DavidMarioLC/portafolio-calendario/blob/main/Thumbnail-Calendario.jpg >
+<img width="400px"  src="https://github.com/DavidMarioLC/portafolio-calendario/blob/main/Thumbnail-Calendario.jpg" />
 
 ## 🌟 Autor
 
