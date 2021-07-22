@@ -43,3 +43,9 @@
 .miniCalendar-monthDay.is-inactive {
   color: var(--gray20);
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  .miniCalendar-monthDay.is-selected {
+    color: #fff;
+  }
+}

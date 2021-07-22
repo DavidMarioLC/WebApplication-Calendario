@@ -27,4 +27,16 @@
 }
 
 .calendar-day {
+  display: grid;
+  min-block-size: 700px; /*the size min for the devices*/
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 7rem repeat(
+      24,
+      minmax(var(--minBlockSize), var(--maxBlockSize))
+    );
+}
+
+.calendar-day .calendarDay {
+  align-items: start;
+  padding-left: 1rem;
 }

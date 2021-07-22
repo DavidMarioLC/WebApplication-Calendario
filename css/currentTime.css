@@ -19,3 +19,27 @@
   border-radius: 50%;
   transform: translateY(-50%) translateX(-2px);
 }
+
+/* currentTimeDay */
+
+.currentTimeDay {
+  border: 1px solid red;
+  background: var(--red10);
+  block-size: 2px;
+  inline-size: calc(100% - 107px);
+  position: absolute;
+  inset-inline-start: 80px;
+  inset-block-start: 400px;
+  z-index: -1;
+}
+
+.currentTimeDay::before {
+  content: "";
+
+  display: block;
+  inline-size: 1rem;
+  block-size: 1rem;
+  background: var(--red10);
+  border-radius: 50%;
+  transform: translateY(-50%) translateX(-2px);
+}

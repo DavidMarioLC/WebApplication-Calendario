@@ -17,3 +17,16 @@
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  .taskCell.is-active::before {
+    content: "(Sin titulo)";
+    font-size: small;
+    background: #a3c7f6;
+    color: #fff;
+    padding: 0.25rem;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+}

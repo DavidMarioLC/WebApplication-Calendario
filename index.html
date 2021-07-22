@@ -4,14 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta nam="description" content="Portafolio calendario" />
+    <meta name="description" content="Portafolio calendario" />
     <title>Portafolio Calendario</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+   
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -20,21 +15,22 @@
         <div class="header-primary">
           <div class="header-logo">
             <button class="button is-compact">
-              <i class="icon-hamburguer-button"></i>
+              <i class="icon-hamburguer-button" aria-label="menu"></i>
             </button>
-            <a href="/" aria-current="page" aria-label="Calendar" tabindex=""-1"> 
+            <a href="/" aria-current="page" aria-label="Calendar" tabindex="-1"> 
               <img
                 src="./images/logo.png"
                 alt="Logo calendario"
                 title="Logo calendario"
+                width="164"
+                height="48"
+
               />
             </a>
           </div>
           <div class="calendarStatus">
             <button class="button is-secondary">Hoy</button>
-            <time class="calendarStatus-date" datetime="2021-06-07"
-              >25 de Junio</time
-            >
+           
             <span class="calendarStatus-navigation">
               <a class="button is-compact" href="#" aria-label="Siguiente semana">
                 <i class="icon-chevron-left" aria-hidden="true"></i>
@@ -43,6 +39,9 @@
                 <i class="icon-chevron-right" aria-hidden="true"></i>
               </a>
             </span>
+            <time class="calendarStatus-date" datetime="2021-06-07"
+            >25 de Junio de 2021</time
+          >
           </div>
         </div>
         <div class="header-secondary">
@@ -52,7 +51,8 @@
             <option value="Dia">Dia</option>
           </select>
           <a href="#">
-            <img src="./images/user.png" alt="Imagen de usuario" title="Imagen de usuario">
+            <img src="./images/user.png" alt="Imagen de usuario" title="Imagen de usuario" width="32"
+            height="32">
           </a>
         </div>
        
@@ -130,6 +130,36 @@
             
           </div>
         </div>
+        <div class="sidebar-input">
+          <i class="icon-users"></i>
+          <input type="text" placeholder="Buscar personas">
+        </div>
+        <div class="sidebar-contacts">
+          <div class="sidebar-contacs-title">
+            <p>Mis calendarios</p>
+          <i class="icon-chevron-up"></i>
+          </div>
+          <ul class="sidebar-contacs-items">
+            <li class="checkbox-custom">
+              <div tabindex="0"  class="checkbox" role="checkbox"  aria-checked="false" aria-label="Calendario Leonidas Esteban" >
+                <i  class="icon-close icon-checkbox" aria-hidden="true"></i>
+            </div>
+            <p class="checkbox-name">Leonidas Esteban</p>
+            </li>
+            <li class="checkbox-custom">
+              <div tabindex="0" class="checkbox" role="checkbox"  aria-checked="false" aria-label="Calendario DavidMarioLC">
+                <i  class="icon-close icon-checkbox" aria-hidden="true"></i>
+            </div>
+            <p class="checkbox-name">DavidMarioLC</p>
+            </li>
+            <li class="checkbox-custom">
+              <div tabindex="0" class="checkbox" role="checkbox"  aria-checked="false" aria-label="Calendario Cumpleaños">
+                <i  class="icon-close icon-checkbox"></i>
+            </div>
+            <p class="checkbox-name">Cumpleaños</p>
+            </li>
+          </ul>
+        </div>
       </div>
       <main class="calendar">
         <div class="currentTime"></div>
@@ -197,63 +227,242 @@
 
           <div class="taskCell">
             <div
-              class="task"
-              tabindex="0"
-              aria-label="de 17:00 a 18:00, do exercise"
-            >
-              <p>Do exercise.</p>
-              <p>
-                <time datetime="2021-06-07time> -
-                <time datetime="2021-06-07m</time>
-              </p>
-            </div>
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Watch series on Netflix 🎬.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
           </div>
           <div class="taskCell">
             <div
-              class="task"
-              tabindex="0"
-              aria-label="de 17:00 a 18:00, do exercise"
-            >
-              <p>Do exercise.</p>
-              <p>
-                <time datetime="2021-06-07time> -
-                <time datetime="2021-06-07m</time>
-              </p>
-            </div>
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
           </div>
           <div class="taskCell">
             <div
-              class="task"
-              tabindex="0"
-              aria-label="de 17:00 a 18:00, do exercise"
-            >
-              <p>Do exercise.</p>
-              <p>
-                <time datetime="2021-06-07time> -
-                <time datetime="2021-06-07m</time>
-              </p>
-            </div>
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
           </div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div></div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Watch series on Netflix 🎬.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
           <!-- row -->
           <span class="hourCell">1 AM</span>
-          <div class="taskCell is-active"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
+          <div class="taskCell"> 
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Watch series on Netflix 🎬.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study English 👨‍🏫.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
           <div class="taskCell"></div>
           <!-- row -->
           <span class="hourCell">2 AM</span>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
-          <div class="taskCell"></div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Watch series on Netflix 🎬.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study at LeonidasEsteban 👨‍💻.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study at LeonidasEsteban 👨‍💻.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study at LeonidasEsteban 👨‍💻.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
+          <div class="taskCell">
+            <div
+            class="task"
+            tabindex="0"
+            aria-label="de 17:00 a 18:00, do exercise"
+          >
+            <p>Study at LeonidasEsteban 👨‍💻.</p>
+            <p>
+              <time datetime="2021-06-07time> -
+              <time datetime="2021-06-07m</time>
+            </p>
+          </div>
+          </div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <!-- row -->
@@ -501,6 +710,6 @@
        <div class="button is-primary" >Guardar</div>
      </div>
     </dialog>
-   <script src="./js/app.js" type="module"></script>
+   <script src="./js/app.js" type="module" async></script>
   </body>
 </html>

@@ -3,4 +3,79 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.sidebar-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.sidebar-input i {
+  position: absolute;
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.sidebar-input input {
+  border: none;
+  flex: 1;
+
+  font: var(--body1-regular);
+  background: var(--gray10);
+  padding: 0.5rem 0;
+  padding-left: 2rem;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.sidebar-input input::placeholder {
+  color: var(--gray20);
+}
+
+.sidebar-contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sidebar-contacs-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-contacs-title p {
+  font: var(--body1-medium);
+  color: var(--gray30);
+  margin: 0;
+}
+
+.sidebar-contacs-title i {
+  font-size: 1.5rem;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  .sidebar-input input {
+    border: none;
+    flex: 1;
+
+    font: var(--body1-regular);
+    background: #565f68;
+    padding: 0.5rem 0;
+    padding-left: 2rem;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .sidebar-input input::placeholder {
+    color: rgb(211, 201, 201);
+  }
+
+  .sidebar-contacs-title p {
+    color: #fff;
+  }
 }

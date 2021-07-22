@@ -55,3 +55,16 @@
   background: var(--blue10);
   color: var(--white);
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  .calendarDay a:hover span:nth-of-type(2),
+  .calendarDay a:focus span:nth-of-type(2) {
+    background: #5f9def;
+    color: #fff;
+  }
+
+  .calendarDay.is-selected span:nth-of-type(2) {
+    background: var(--blue10);
+    color: #fff;
+  }
+}
