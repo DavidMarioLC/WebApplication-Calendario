@@ -23,6 +23,7 @@
   font: var(--body1-regular);
   padding-block: 0.625rem;
   padding-right: 0.75rem;
+  padding-left: 0.75rem;
   border: none;
   outline: none;
   border-radius: 0.25rem;
