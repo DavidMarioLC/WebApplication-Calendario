@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1967d2;
+  background: #0d1117;
 }
 
 .checkbox-name {
@@ -37,12 +37,12 @@
 .icon-checkbox {
   color: #fff;
   font-size: 1rem;
-  opacity: 1;
+  opacity: 0;
+  z-index: -3;
 }
 
 .is-checked {
   opacity: 1;
-  z-index: -3;
 }
 
 [aria-checked="true"] {
@@ -51,6 +51,7 @@
 
 [aria-checked="true"] .icon-checkbox {
   opacity: 1;
+  z-index: 1;
 }
 
 [aria-checked="false"] {

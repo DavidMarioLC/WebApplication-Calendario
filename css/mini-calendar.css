@@ -33,6 +33,7 @@
 
 .miniCalendar-monthDay {
   line-height: var(--cellSize);
+  cursor: pointer;
 }
 
 .miniCalendar-monthDay.is-selected {
